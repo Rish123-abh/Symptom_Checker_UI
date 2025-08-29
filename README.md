@@ -3,6 +3,11 @@
 This is a React + TypeScript frontend for the Symptom-to-Disease Prediction application.
 It allows users to type symptoms, get suggestions, and fetch predicted diseases from the backend API.
 
+<img width="748" height="881" alt="image" src="https://github.com/user-attachments/assets/ef1f5e60-ba31-4fc3-ab17-f4bab92b824b" />
+
+<img width="1167" height="880" alt="image" src="https://github.com/user-attachments/assets/74536029-ec7b-4437-88be-7e77a55334a8" />
+
+
 🚀 Features
 
 Autocomplete suggestions while typing symptoms
