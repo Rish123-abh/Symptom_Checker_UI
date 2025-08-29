@@ -39,7 +39,7 @@ const DiseasePredictionApp: React.FC = () => {
       }
 
       const response = await axios.get<DiseasePredictionResponse>(
-        `${API_BASE_URL}predictDisease`,
+        `${API_BASE_URL}/predictDisease`,
         { params: { symptoms } }
       );
 

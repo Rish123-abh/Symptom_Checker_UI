@@ -22,7 +22,7 @@ const SymptomInput = ({ symptoms, setSymptoms, onSubmit, loading }: Proptype) =>
             return;
         }
 
-        const response = await axios.get(`${API_BASE_URL}symptoms/search`, {
+        const response = await axios.get(`${API_BASE_URL}/symptoms/search`, {
             params: { q: input }
         });
         setSuggestions(response.data);
